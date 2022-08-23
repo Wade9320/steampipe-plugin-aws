@@ -10180,6 +10180,11 @@ func testSourceArnConditionWhenAcrossMultipleStatements(t *testing.T) {
 	}
 }
 
+// TODO
+func TestGlobalConditionPrincipalArnAndPrincipal(t *testing.T) {
+	t.Skip("TODO")
+}
+
 func TestGlobalConditionPrincipalArn(t *testing.T) {
 	// StringEquals
 	t.Run("TestPrincipalArnConditionWhenValueIsAUserAccountArnUsingStringEquals", testPrincipalArnConditionWhenValueIsAUserAccountArnUsingStringEquals)
