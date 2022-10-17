@@ -6869,7 +6869,6 @@ func testPolicyActionWhenServiceNameIsMissing(t *testing.T) {
 }
 
 func TestGlobalConditionSourceArn(t *testing.T) {
-	t.Skip("Pause")
 	// StringEquals
 	t.Run("TestSourceArnConditionWhenValueIsAUserAccountUsingStringEquals", testSourceArnConditionWhenValueIsAUserAccountUsingStringEquals)
 	t.Run("TestSourceArnConditionWhenValueIsACrossAccountUsingStringEquals", testSourceArnConditionWhenValueIsACrossAccountUsingStringEquals)
